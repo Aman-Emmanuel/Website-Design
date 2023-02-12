@@ -1,0 +1,86 @@
+section{
+    display: grid;
+    padding: 60px 30px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 30px;
+}
+#home{
+    color:rgb(255, 0, 106);
+}
+section div pre span{
+    color:rgb(255, 0, 106);
+}
+.b1{
+    grid-column: 1/3;
+    font-size: 60px;
+    padding: 20px;
+}
+.b3{
+    grid-column: 1/3;
+    /* background-size: cover; */
+    border-radius: 30px;
+}
+.b2{
+    /* background-size: cover; */
+    border-radius: 30px;
+}
+.b4{
+    background-size: fill;
+    border-radius: 30px;
+}
+.b5{
+    grid-column: 4/6;
+    grid-row: 1/3;
+    border-radius: 30px;
+}
+.b1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.b2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.b3:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.b4:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.b5:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.img1{
+    width: 200px;
+    padding: 20px;
+    background-color: rgb(183, 106, 255);
+    border-radius: 30px;
+    padding-bottom: 57px;
+}
+.img3{
+    width: 200px;
+    padding: 20px;
+    background-color: rgb(93, 172, 247);
+    border-radius: 30px;
+    padding-bottom: 57px;
+}
+.img4{
+    width: 464px;
+    padding: 20px 40px;
+    background-color: rgb(37, 39, 34);
+    border-radius: 30px;
+}
+section div img{
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+div.b3 img{
+    width: 360px;
+    padding-left: 100px;
+}

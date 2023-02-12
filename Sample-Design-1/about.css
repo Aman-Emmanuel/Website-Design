@@ -1,0 +1,21 @@
+section h1{
+     color:rgb(255, 0, 106);;
+     font-size: 40px;
+     padding-top: 80px;
+     padding-left: 60px;
+}
+section p{
+    font-size: 25px;
+    padding-left: 60px;
+    padding-top: 80px;
+}
+.about-box-with-image{
+    display: flex;
+    justify-content: space-between;
+}
+#about{
+    color:rgb(255, 0, 106);;
+}
+img{
+    padding-bottom: 120px;
+}
